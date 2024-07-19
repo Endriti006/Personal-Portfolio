@@ -639,7 +639,13 @@ input[type="checkbox"] {
     flex-direction: column-reverse;
     padding-bottom: 70px;
   }
+  .hero--section--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .hero--section--title,
+  .section--title,
   .hero--section-description,
   .footer--content {
     text-align: center;
@@ -686,6 +692,7 @@ input[type="checkbox"] {
     line-height: 40px;
   }
   .hero--section--content--box {
+    text-align: center;
     gap: 10px;
   }
   .contact--form--container {
